@@ -53,10 +53,10 @@ $(window).on('load', function() {
 			loading: true,
 			loadingParentElement: 'body', //animsition wrapper element
 			loadingClass: 'preloader',//'animsition-loading',
-			loadingInner: `<div class="preloader__spinner">
-				<span class="preloader__double-bounce"></span>
-				<span class="preloader__double-bounce preloader__double-bounce--delay"></span>
-			</div>`, // e.g '<img src="loading.svg" />
+			// loadingInner: `<div class="preloader__spinner">
+			// 	<span class="preloader__double-bounce"></span>
+			// 	<span class="preloader__double-bounce preloader__double-bounce--delay"></span>
+			// </div>`, // e.g '<img src="loading.svg" />
 			timeout: false,
 			timeoutCountdown: 5000,
 			onLoadEvent: true,

@@ -19,7 +19,7 @@ tpj(document).ready(function() {
       sliderLayout: "auto",//"fullscreen",
 			fullScreenAlignForce: 'off',
       dottedOverlay:"none",
-      delay:850,
+      delay:2000,
       minHeight:380,
       navigation: {
         keyboardNavigation:"off",
