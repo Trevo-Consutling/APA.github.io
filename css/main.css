@@ -7185,7 +7185,8 @@ textarea.custom-input {
 /* 4.30 Main slider */
 .main-slider {
   position: relative;
-  max-width: 1800px;
+  width: 100% !important;
+  z-index: 0;
   margin-left: auto;
   margin-right: auto;
   height: calc(100vh - 93px);
@@ -7245,11 +7246,11 @@ textarea.custom-input {
 }
 
 .main-slider .tp-leftarrow::before {
-  content: "prev";
+  content: "";
 }
 
 .main-slider .tp-rightarrow::before {
-  content: "next";
+  content: "";
 }
 
 @media (min-width: 768px) {
@@ -7259,7 +7260,8 @@ textarea.custom-input {
 }
 
 .main-slider .rev_slider_wrapper {
-  height: 100% !important;
+  width: 100% !important;
+  height: 100%;
 }
 
 .main-slider .rev_slider {
