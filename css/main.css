@@ -1023,9 +1023,9 @@ textarea.custom-input {
   margin-right: 0;
 }
 
-.navigation__item--current .navigation__link {
+/* .navigation__item--current .navigation__link {
   color: #F43913;
-}
+ } */
 
 .navigation__link {
   font-size: 24px;
@@ -1999,9 +1999,9 @@ textarea.custom-input {
   color: #F43913;
 }
 
-.header--fixed .navigation__item--current .navigation__link {
+/* .header--fixed .navigation__item--current .navigation__link {
   color: #F43913 !important;
-}
+} */
 
 @media (min-width: 992px) {
   .header--fixed .navigation__dropdown {
